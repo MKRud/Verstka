@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <title>Document</title>
+</head>
+<body>
+    <div class="container_intro">
+        <header class="header">
+            <div class="logo"></div>
+            <nav class="nav" id="top_nav">
+                <a href="#" class="home" id='active'>home</a>
+                <a href="#" class="about">about</a>
+                <a href="#" class="work">work</a>
+                <a href="#" class="process">process</a>
+                <a href="#" class="servises">servises</a>
+                <a href="#" class="testimonials">testimonials</a>
+                <a href="#" class="contacts">contacts</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </nav>
+        </header>
+        <div class="container_banner">
+            <h1>We Design and Develop</h1>
+            <p>We are a new design studio based in USA. We have over 
+                20 years of combined experience, and know a thing or two 
+                about designing websites and mobile apps.</p>
+            <button  class="button"> <span>contact us</span> </button>
+        </div>
+
+    </div>
+</body>
+<script>
+    function myFunction() {
+    var x = document.getElementById("top_nav");
+    if (x.className === "nav") {
+      x.className += "_responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+</script>
+<!-- <script src="burger.js"></script> -->
+</html>

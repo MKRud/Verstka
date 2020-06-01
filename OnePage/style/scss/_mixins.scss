@@ -1,0 +1,7 @@
+@mixin text ($color, $f-family, $f-size, $l-spac) {
+    color: $color;
+    font-family: $f-family;
+    font-size: $f-size;
+    font-weight: 500;
+    letter-spacing: $l-spac;
+}
